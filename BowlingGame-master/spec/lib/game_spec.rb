@@ -143,9 +143,9 @@ describe Game do
 			g5.roll(4) 
 			#frame10
 			g5.roll(0)
-			g5.roll(5)
+			g5.roll(1)
 			#no row3
-			expect(g5.score).to eq(28)
+			expect(g5.score).to eq(24)
 		end
 	end
 			describe "Bowling Game Kata" do
