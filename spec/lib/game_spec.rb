@@ -108,9 +108,9 @@ describe Game do
 			g4.roll(6) #spare
 			#frame10
 			g4.roll(2)
-			g4.roll(2)
+			g4.roll(3)
 			#no row3
-			expect(g4.score).to eq(111)
+			expect(g4.score).to eq(112)
 		end
 		it 'can roll a simple game (no spare or strike)' do
 	    	g5 = Game.new
